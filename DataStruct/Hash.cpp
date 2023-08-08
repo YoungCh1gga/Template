@@ -44,7 +44,7 @@ int main() {
     unordered_map<ll, int, custom_hash> safe_map;
     gp_hash_table<ll, int, custom_hash> safe_hash_table;
 
-    unordered_map<pair<ll, ll>, int, custom_hash> safe_map_pair;
+    unordered_map<pair<ll, ll>, int, custom_hash_pair> safe_map_pair;
     gp_hash_table<pair<ll, ll>, int, custom_hash_pair> safe_hash_table_pair;
 
     return 0;
